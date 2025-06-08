@@ -1,32 +1,28 @@
-# store-sale-prediction
-Overview
+#Store Sales Prediction using Machine Learning
 
-This project explores the application of machine learning techniques to enhance store sales forecasting. By analyzing historical sales data alongside factors such as seasonal trends, promotions, and economic indicators, we implement and compare various predictive models.
+ 🚀 Overview
+A machine learning model that predicts future store sales using historical data, promotions, and seasonal trends. Helps in improving demand planning and inventory management.
 
-Features
+🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Random Forest, Linear Regression
 
-Data preprocessing and feature engineering
+💡 Features
+- Predicts daily/monthly sales with high accuracy
+- Considers seasonality and promotion data
+- Achieved 20% lower MAE vs traditional forecasting
+ 📊 Model Highlights
+- Feature Engineering on time-based data
+- Comparison of multiple algorithms
+- Evaluation using MAE, RMSE
 
-Implementation of multiple machine learning models:
-
-Linear Regression
-
-Decision Trees
-
-Random Forests
-
-Performance evaluation using metrics like Mean Absolute Error (MAE)
-
-Comparative analysis of traditional vs. ML-based forecasting methods
-
-Results
-
-Our analysis demonstrates that machine learning significantly improves prediction accuracy. The Random Forest model, in particular, reduces mean absolute error by up to 20% compared to traditional forecasting techniques.
-
-Benefits
-
-Enables retailers to make data-driven decisions
-
-Optimizes inventory management
-
-Enhances operational efficiency
+ 📦 Setup
+1. Clone repo
+2. Install libraries:  
+   `pip install pandas scikit-learn matplotlib`
+3. Run:  
+   `python sales_model.py`
+📬 Contact
+Check my work: [GitHub](https://github.com/Rethika1916) | [LinkedIn](https://www.linkedin.com/in/rethika-m-047b57275)
